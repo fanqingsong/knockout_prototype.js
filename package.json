@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
-    "dev": "webpack-dev-server --inline --config webpack.config.dev.js",
+    "dev": "webpack-dev-server --open --inline --progress --config webpack.config.dev.js",
     "lint": "eslint src"
   },
   "keywords": [],
